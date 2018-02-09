@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FirebasePushNotification</string>
+    <string name="profile">Profile</string>
+    <string name="all_user">All User</string>
+    <string name="notification">Notification</string>
+    <string name="default_notification_channel_id">Tvac_CH_01</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome to Notification</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="create_a_new_accocunt">Create a new Accocunt</string>
+    <string name="name">Name</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="back_to_login">Back To Login</string>
+    <string name="logout_firebase">Log out Firebase</string>
+    <string name="user_name_loading">User Name Loading...</string>
+    <string name="send_to">Send To...</string>
+    <string name="send_messenger">Send Messenger</string>
+</resources>

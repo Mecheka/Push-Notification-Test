@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.suriya.firebasepushnotification.activity.SendActivity">
+
+    <TextView
+        android:id="@+id/tvUerID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="@string/send_to"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/editMessenger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvUerID"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/send_background"
+        android:hint="Enter your Messenger"
+        android:padding="10dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp" />
+
+    <com.rilixtech.materialfancybutton.MaterialFancyButton
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editMessenger"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        fancy:mfb_defaultColor="@color/colorPrimaryDark"
+        fancy:mfb_focusColor="@color/colorPrimary"
+        fancy:mfb_radius="30dp"
+        fancy:mfb_text="@string/send_messenger" />
+
+    <ProgressBar
+        android:id="@+id/progreesBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>
